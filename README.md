@@ -1,1 +1,12 @@
-# Proyecto
+William Jesualdo Catalán Pineda 20002284 <br>
+El siguiente programa ejecuta una serie de condiciones para establecer la validez de estas <br>
+Se hace un cálculo de la edad actual de la persona teniendo como primer condición si la persona ingresa un mes mayor que el mes en curso a la edad principal se le resta 1,  en caso contrario si ambos meses son iguales entonces se genera una nueva condición que en donde si el día actual es menor al día de nacimiento esto quiere decir que esa persona aun no cumple años entonces a la edad principal se le resta uno (el mes actual y día actual se tomaron de la variable hoy donde se creó el objeto de tipo date, en donde se utilizó dos parámetros getMothn y getDate) en caso contrario se toma la edad principal que salió del cálculo de la resta del año actual con el año de nacimiento del individuo. <br>
+Ya con la edad de la persona se utilizan tres condiciones la primera si la persona es menor de 18 años no puede optar al seguro, la segunda si es mayor de 65 años pasaría lo mismo que en la primera condición, y por último si esa persona si tiene 18 años en adelante se generan las siguientes condiciones: <br>
+1.	Dependiendo del rango de edad de la persona esta tendrá un recargo en el precio base. <br>
+2.	Posterior se le pregunta si tiene cónyuge si su respuesta es si también se generan condiciones en donde dependiendo del rango de edad del cónyuge este también aportara un recargo al precio base, pero hay una ultima condición en donde si el cónyuge excede de los 70 años sus datos no se pueden tomar en cuenta. <br>
+3.	Y por ultimo se le pregunta a la persona si esta tiene hijos menores de 21 años si es así dependiendo de la cantidad de hijos se hace un recargo al precio base. <br>
+Por último, la función registro llama a la función mensaje en donde esta tiene los mensajes que serán desplegados de acuerdo con los datos ingresados por la persona, ya que se hacen validaciones en donde si la persona no relleno el registro por el ejemplo el de hijos el mensaje de recargo por hijos no será desplegado y así sucesivamente. <br>
+Puntos extras: <br>
+Se utilizo formularios y botón que realiza el cálculo de los registros. <br>
+Se agrego un estilo de letra Bootstrap y también se le agrego color al cuerpo de la página. <br>
+Se utilizo un div para crear secciones del código para centrar el titulo y subtitulo y los registros y el botón, también se le dio un color diferente a ambas secciones.
